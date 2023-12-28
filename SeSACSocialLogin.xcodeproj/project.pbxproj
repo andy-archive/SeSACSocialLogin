@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381F3FF22B3D031200BD5952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F3FF12B3D031200BD5952 /* AppDelegate.swift */; };
+		381F3FF42B3D031200BD5952 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F3FF32B3D031200BD5952 /* SceneDelegate.swift */; };
+		381F3FF62B3D031200BD5952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F3FF52B3D031200BD5952 /* ViewController.swift */; };
+		381F3FF92B3D031200BD5952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381F3FF72B3D031200BD5952 /* Main.storyboard */; };
+		381F3FFB2B3D031400BD5952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381F3FFA2B3D031400BD5952 /* Assets.xcassets */; };
+		381F3FFE2B3D031400BD5952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381F3FFC2B3D031400BD5952 /* LaunchScreen.storyboard */; };
+		381F40092B3D031400BD5952 /* SeSACSocialLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F40082B3D031400BD5952 /* SeSACSocialLoginTests.swift */; };
+		381F40132B3D031400BD5952 /* SeSACSocialLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F40122B3D031400BD5952 /* SeSACSocialLoginUITests.swift */; };
+		381F40152B3D031400BD5952 /* SeSACSocialLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F40142B3D031400BD5952 /* SeSACSocialLoginUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		381F40052B3D031400BD5952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381F3FE62B3D031200BD5952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381F3FED2B3D031200BD5952;
+			remoteInfo = SeSACSocialLogin;
+		};
+		381F400F2B3D031400BD5952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 381F3FE62B3D031200BD5952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381F3FED2B3D031200BD5952;
+			remoteInfo = SeSACSocialLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		381F3FEE2B3D031200BD5952 /* SeSACSocialLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACSocialLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		381F3FF12B3D031200BD5952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		381F3FF32B3D031200BD5952 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		381F3FF52B3D031200BD5952 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		381F3FF82B3D031200BD5952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		381F3FFA2B3D031400BD5952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		381F3FFD2B3D031400BD5952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		381F3FFF2B3D031400BD5952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381F40042B3D031400BD5952 /* SeSACSocialLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeSACSocialLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		381F40082B3D031400BD5952 /* SeSACSocialLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACSocialLoginTests.swift; sourceTree = "<group>"; };
+		381F400E2B3D031400BD5952 /* SeSACSocialLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeSACSocialLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		381F40122B3D031400BD5952 /* SeSACSocialLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACSocialLoginUITests.swift; sourceTree = "<group>"; };
+		381F40142B3D031400BD5952 /* SeSACSocialLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACSocialLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381F3FEB2B3D031200BD5952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381F40012B3D031400BD5952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381F400B2B3D031400BD5952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381F3FE52B3D031200BD5952 = {
+			isa = PBXGroup;
+			children = (
+				381F3FF02B3D031200BD5952 /* SeSACSocialLogin */,
+				381F40072B3D031400BD5952 /* SeSACSocialLoginTests */,
+				381F40112B3D031400BD5952 /* SeSACSocialLoginUITests */,
+				381F3FEF2B3D031200BD5952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		381F3FEF2B3D031200BD5952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				381F3FEE2B3D031200BD5952 /* SeSACSocialLogin.app */,
+				381F40042B3D031400BD5952 /* SeSACSocialLoginTests.xctest */,
+				381F400E2B3D031400BD5952 /* SeSACSocialLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		381F3FF02B3D031200BD5952 /* SeSACSocialLogin */ = {
+			isa = PBXGroup;
+			children = (
+				381F3FF12B3D031200BD5952 /* AppDelegate.swift */,
+				381F3FF32B3D031200BD5952 /* SceneDelegate.swift */,
+				381F3FF52B3D031200BD5952 /* ViewController.swift */,
+				381F3FF72B3D031200BD5952 /* Main.storyboard */,
+				381F3FFA2B3D031400BD5952 /* Assets.xcassets */,
+				381F3FFC2B3D031400BD5952 /* LaunchScreen.storyboard */,
+				381F3FFF2B3D031400BD5952 /* Info.plist */,
+			);
+			path = SeSACSocialLogin;
+			sourceTree = "<group>";
+		};
+		381F40072B3D031400BD5952 /* SeSACSocialLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				381F40082B3D031400BD5952 /* SeSACSocialLoginTests.swift */,
+			);
+			path = SeSACSocialLoginTests;
+			sourceTree = "<group>";
+		};
+		381F40112B3D031400BD5952 /* SeSACSocialLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				381F40122B3D031400BD5952 /* SeSACSocialLoginUITests.swift */,
+				381F40142B3D031400BD5952 /* SeSACSocialLoginUITestsLaunchTests.swift */,
+			);
+			path = SeSACSocialLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		381F3FED2B3D031200BD5952 /* SeSACSocialLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381F40182B3D031400BD5952 /* Build configuration list for PBXNativeTarget "SeSACSocialLogin" */;
+			buildPhases = (
+				381F3FEA2B3D031200BD5952 /* Sources */,
+				381F3FEB2B3D031200BD5952 /* Frameworks */,
+				381F3FEC2B3D031200BD5952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeSACSocialLogin;
+			productName = SeSACSocialLogin;
+			productReference = 381F3FEE2B3D031200BD5952 /* SeSACSocialLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		381F40032B3D031400BD5952 /* SeSACSocialLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381F401B2B3D031400BD5952 /* Build configuration list for PBXNativeTarget "SeSACSocialLoginTests" */;
+			buildPhases = (
+				381F40002B3D031400BD5952 /* Sources */,
+				381F40012B3D031400BD5952 /* Frameworks */,
+				381F40022B3D031400BD5952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381F40062B3D031400BD5952 /* PBXTargetDependency */,
+			);
+			name = SeSACSocialLoginTests;
+			productName = SeSACSocialLoginTests;
+			productReference = 381F40042B3D031400BD5952 /* SeSACSocialLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		381F400D2B3D031400BD5952 /* SeSACSocialLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 381F401E2B3D031400BD5952 /* Build configuration list for PBXNativeTarget "SeSACSocialLoginUITests" */;
+			buildPhases = (
+				381F400A2B3D031400BD5952 /* Sources */,
+				381F400B2B3D031400BD5952 /* Frameworks */,
+				381F400C2B3D031400BD5952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381F40102B3D031400BD5952 /* PBXTargetDependency */,
+			);
+			name = SeSACSocialLoginUITests;
+			productName = SeSACSocialLoginUITests;
+			productReference = 381F400E2B3D031400BD5952 /* SeSACSocialLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		381F3FE62B3D031200BD5952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					381F3FED2B3D031200BD5952 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					381F40032B3D031400BD5952 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 381F3FED2B3D031200BD5952;
+					};
+					381F400D2B3D031400BD5952 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 381F3FED2B3D031200BD5952;
+					};
+				};
+			};
+			buildConfigurationList = 381F3FE92B3D031200BD5952 /* Build configuration list for PBXProject "SeSACSocialLogin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 381F3FE52B3D031200BD5952;
+			productRefGroup = 381F3FEF2B3D031200BD5952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				381F3FED2B3D031200BD5952 /* SeSACSocialLogin */,
+				381F40032B3D031400BD5952 /* SeSACSocialLoginTests */,
+				381F400D2B3D031400BD5952 /* SeSACSocialLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		381F3FEC2B3D031200BD5952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381F3FFE2B3D031400BD5952 /* LaunchScreen.storyboard in Resources */,
+				381F3FFB2B3D031400BD5952 /* Assets.xcassets in Resources */,
+				381F3FF92B3D031200BD5952 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381F40022B3D031400BD5952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381F400C2B3D031400BD5952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381F3FEA2B3D031200BD5952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381F3FF62B3D031200BD5952 /* ViewController.swift in Sources */,
+				381F3FF22B3D031200BD5952 /* AppDelegate.swift in Sources */,
+				381F3FF42B3D031200BD5952 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381F40002B3D031400BD5952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381F40092B3D031400BD5952 /* SeSACSocialLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		381F400A2B3D031400BD5952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				381F40132B3D031400BD5952 /* SeSACSocialLoginUITests.swift in Sources */,
+				381F40152B3D031400BD5952 /* SeSACSocialLoginUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		381F40062B3D031400BD5952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381F3FED2B3D031200BD5952 /* SeSACSocialLogin */;
+			targetProxy = 381F40052B3D031400BD5952 /* PBXContainerItemProxy */;
+		};
+		381F40102B3D031400BD5952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 381F3FED2B3D031200BD5952 /* SeSACSocialLogin */;
+			targetProxy = 381F400F2B3D031400BD5952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		381F3FF72B3D031200BD5952 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381F3FF82B3D031200BD5952 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		381F3FFC2B3D031400BD5952 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				381F3FFD2B3D031400BD5952 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		381F40162B3D031400BD5952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		381F40172B3D031400BD5952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		381F40192B3D031400BD5952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UNP2C529F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeSACSocialLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyarchive.SeSACSocialLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		381F401A2B3D031400BD5952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UNP2C529F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeSACSocialLogin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyarchive.SeSACSocialLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		381F401C2B3D031400BD5952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UNP2C529F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyarchive.SeSACSocialLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeSACSocialLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeSACSocialLogin";
+			};
+			name = Debug;
+		};
+		381F401D2B3D031400BD5952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UNP2C529F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyarchive.SeSACSocialLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeSACSocialLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeSACSocialLogin";
+			};
+			name = Release;
+		};
+		381F401F2B3D031400BD5952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UNP2C529F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyarchive.SeSACSocialLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeSACSocialLogin;
+			};
+			name = Debug;
+		};
+		381F40202B3D031400BD5952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UNP2C529F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andyarchive.SeSACSocialLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeSACSocialLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		381F3FE92B3D031200BD5952 /* Build configuration list for PBXProject "SeSACSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381F40162B3D031400BD5952 /* Debug */,
+				381F40172B3D031400BD5952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381F40182B3D031400BD5952 /* Build configuration list for PBXNativeTarget "SeSACSocialLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381F40192B3D031400BD5952 /* Debug */,
+				381F401A2B3D031400BD5952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381F401B2B3D031400BD5952 /* Build configuration list for PBXNativeTarget "SeSACSocialLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381F401C2B3D031400BD5952 /* Debug */,
+				381F401D2B3D031400BD5952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		381F401E2B3D031400BD5952 /* Build configuration list for PBXNativeTarget "SeSACSocialLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				381F401F2B3D031400BD5952 /* Debug */,
+				381F40202B3D031400BD5952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 381F3FE62B3D031200BD5952 /* Project object */;
+}
