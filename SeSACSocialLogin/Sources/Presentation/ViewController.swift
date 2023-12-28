@@ -39,6 +39,8 @@ final class ViewController: UIViewController {
     
     //MARK: - Private Methods
     private func configureUI() {
+        view.backgroundColor = .systemYellow.withAlphaComponent(0.6)
+        
         appleLoginButton.addTarget(
             self,
             action: #selector(appleLoginButtonClicked),
@@ -78,6 +80,8 @@ extension ViewController: ASAuthorizationControllerDelegate {
             let fullName = appleIDCredential.fullName
             let email = appleIDCredential.email
             
+            UserDefaults.standard.setValue(user, forKey: "User")
+            
             guard
                 let identityToken = appleIDCredential.identityToken,
                 let tokenToString = String(data: identityToken, encoding: .utf8)
@@ -94,8 +98,10 @@ extension ViewController: ASAuthorizationControllerDelegate {
             print("------------------------------")
             
             if email?.isEmpty ?? true {
-                let result = decode(jwtToken: tokenToString)["email"] as? String ?? ""
-                print(result)
+                let decodedToken = decode(jwtToken: tokenToString)["email"] as? String ?? ""
+                print("Token DECODED: ")
+                print(decodedToken)
+                print()
             }
             
             /// 이메일 / 토큰 / 이름 -> UserDefaults & API 서버로 POST
@@ -120,7 +126,6 @@ extension ViewController: ASAuthorizationControllerDelegate {
             break
         }
     }
-    
     
     /// Apple Login Failed
     func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
