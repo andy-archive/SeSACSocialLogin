@@ -51,6 +51,7 @@
 		381F40122B3D031400BD5952 /* SeSACSocialLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACSocialLoginUITests.swift; sourceTree = "<group>"; };
 		381F40142B3D031400BD5952 /* SeSACSocialLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACSocialLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		381F40262B3D052E00BD5952 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		381F40282B3D0C5D00BD5952 /* SeSACSocialLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SeSACSocialLogin.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 		381F3FF02B3D031200BD5952 /* SeSACSocialLogin */ = {
 			isa = PBXGroup;
 			children = (
+				381F40282B3D0C5D00BD5952 /* SeSACSocialLogin.entitlements */,
 				381F40242B3D037800BD5952 /* Resources */,
 				381F40222B3D036300BD5952 /* Sources */,
 			);
@@ -484,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeSACSocialLogin/SeSACSocialLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3UNP2C529F;
@@ -517,6 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SeSACSocialLogin/SeSACSocialLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3UNP2C529F;
