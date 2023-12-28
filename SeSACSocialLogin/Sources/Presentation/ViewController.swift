@@ -88,6 +88,8 @@ extension ViewController: ASAuthorizationControllerDelegate {
                 print(result)
             }
             
+            /// 이메일 / 토큰 / 이름 -> UserDefaults & API 서버로 POST
+            /// 서버에 Request에 대한 Response를 받으면 성공 시 화면 전환
             return
         case let passwordCredential as ASPasswordCredential:
             
