@@ -8,6 +8,16 @@
 import AuthenticationServices
 import UIKit
 
+/* 임의의 새 뷰 */
+final class MainViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.backgroundColor = .systemBlue.withAlphaComponent(0.8)
+    }
+}
+
 /* 📝
  소셜 로그인(페북/구글/카카오..), 애플 로그인 구현 필수 (구현 안할 시 리젝 사유 ⛔️)
  (ex. 인스타그램은 북꺼니까(?) 애플 안붙여도 괜찮음!)
@@ -90,6 +100,10 @@ extension ViewController: ASAuthorizationControllerDelegate {
             
             /// 이메일 / 토큰 / 이름 -> UserDefaults & API 서버로 POST
             /// 서버에 Request에 대한 Response를 받으면 성공 시 화면 전환
+            DispatchQueue.main.async {
+                self.present(MainViewController(), animated: true)
+            }
+            
             return
         case let passwordCredential as ASPasswordCredential:
             
