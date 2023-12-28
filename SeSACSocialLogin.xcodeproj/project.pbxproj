@@ -16,6 +16,7 @@
 		381F40092B3D031400BD5952 /* SeSACSocialLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F40082B3D031400BD5952 /* SeSACSocialLoginTests.swift */; };
 		381F40132B3D031400BD5952 /* SeSACSocialLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F40122B3D031400BD5952 /* SeSACSocialLoginUITests.swift */; };
 		381F40152B3D031400BD5952 /* SeSACSocialLoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F40142B3D031400BD5952 /* SeSACSocialLoginUITestsLaunchTests.swift */; };
+		381F40272B3D052E00BD5952 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 381F40262B3D052E00BD5952 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		381F400E2B3D031400BD5952 /* SeSACSocialLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeSACSocialLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		381F40122B3D031400BD5952 /* SeSACSocialLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACSocialLoginUITests.swift; sourceTree = "<group>"; };
 		381F40142B3D031400BD5952 /* SeSACSocialLoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACSocialLoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		381F40262B3D052E00BD5952 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		381F3FE52B3D031200BD5952 = {
 			isa = PBXGroup;
 			children = (
+				381F40262B3D052E00BD5952 /* .gitignore */,
 				381F3FF02B3D031200BD5952 /* SeSACSocialLogin */,
 				381F40072B3D031400BD5952 /* SeSACSocialLoginTests */,
 				381F40112B3D031400BD5952 /* SeSACSocialLoginUITests */,
@@ -271,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381F40272B3D052E00BD5952 /* .gitignore in Resources */,
 				381F3FFE2B3D031400BD5952 /* LaunchScreen.storyboard in Resources */,
 				381F3FFB2B3D031400BD5952 /* Assets.xcassets in Resources */,
 				381F3FF92B3D031200BD5952 /* Main.storyboard in Resources */,
