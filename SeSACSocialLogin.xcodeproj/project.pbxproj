@@ -99,13 +99,8 @@
 		381F3FF02B3D031200BD5952 /* SeSACSocialLogin */ = {
 			isa = PBXGroup;
 			children = (
-				381F3FF12B3D031200BD5952 /* AppDelegate.swift */,
-				381F3FF32B3D031200BD5952 /* SceneDelegate.swift */,
-				381F3FF52B3D031200BD5952 /* ViewController.swift */,
-				381F3FF72B3D031200BD5952 /* Main.storyboard */,
-				381F3FFA2B3D031400BD5952 /* Assets.xcassets */,
-				381F3FFC2B3D031400BD5952 /* LaunchScreen.storyboard */,
-				381F3FFF2B3D031400BD5952 /* Info.plist */,
+				381F40242B3D037800BD5952 /* Resources */,
+				381F40222B3D036300BD5952 /* Sources */,
 			);
 			path = SeSACSocialLogin;
 			sourceTree = "<group>";
@@ -125,6 +120,51 @@
 				381F40142B3D031400BD5952 /* SeSACSocialLoginUITestsLaunchTests.swift */,
 			);
 			path = SeSACSocialLoginUITests;
+			sourceTree = "<group>";
+		};
+		381F40212B3D035C00BD5952 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				381F40252B3D038C00BD5952 /* Storyboard */,
+				381F3FF52B3D031200BD5952 /* ViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		381F40222B3D036300BD5952 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				381F40232B3D037200BD5952 /* Application */,
+				381F40212B3D035C00BD5952 /* Presentation */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		381F40232B3D037200BD5952 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				381F3FF12B3D031200BD5952 /* AppDelegate.swift */,
+				381F3FF32B3D031200BD5952 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		381F40242B3D037800BD5952 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				381F3FFA2B3D031400BD5952 /* Assets.xcassets */,
+				381F3FFF2B3D031400BD5952 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		381F40252B3D038C00BD5952 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				381F3FF72B3D031200BD5952 /* Main.storyboard */,
+				381F3FFC2B3D031400BD5952 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,12 +484,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3UNP2C529F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SeSACSocialLogin/Info.plist;
+				INFOPLIST_FILE = SeSACSocialLogin/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SeSAC-SocialLogin";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,9 +499,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andyarchive.SeSACSocialLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -472,12 +517,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3UNP2C529F;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SeSACSocialLogin/Info.plist;
+				INFOPLIST_FILE = SeSACSocialLogin/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SeSAC-SocialLogin";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,9 +532,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andyarchive.SeSACSocialLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
