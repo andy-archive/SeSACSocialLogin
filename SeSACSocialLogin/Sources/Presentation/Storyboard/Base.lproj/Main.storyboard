@@ -26,16 +26,28 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="ASAuthorizationAppleIDButton"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0e1-4F-65F">
+                                <rect key="frame" x="71.666666666666686" y="185" width="250" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="0zS-et-7cj"/>
+                                    <constraint firstAttribute="width" constant="250" id="6js-j4-XgQ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Face ID"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="BpS-GG-7mz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="27a-La-ua9"/>
                             <constraint firstItem="BpS-GG-7mz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="2HA-bU-tOi"/>
+                            <constraint firstItem="0e1-4F-65F" firstAttribute="top" secondItem="BpS-GG-7mz" secondAttribute="bottom" constant="30" id="A6a-dO-eAR"/>
+                            <constraint firstItem="0e1-4F-65F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vou-NT-fNq"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="appleLoginButton" destination="BpS-GG-7mz" id="ggC-gO-Gwa"/>
+                        <outlet property="faceIDButton" destination="0e1-4F-65F" id="gIc-JA-ARe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
