@@ -28,7 +28,8 @@ final class MainViewController: UIViewController {
 final class ViewController: UIViewController {
     
     //MARK: - UI
-    @IBOutlet private var appleLoginButton: ASAuthorizationAppleIDButton!
+    @IBOutlet private weak var appleLoginButton: ASAuthorizationAppleIDButton!
+    @IBOutlet private weak var faceIDButton: UIButton!
     
     //MARK: - View Cycle
     override func viewDidLoad() {
@@ -46,6 +47,11 @@ final class ViewController: UIViewController {
             action: #selector(appleLoginButtonClicked),
             for: .touchUpInside
         )
+        faceIDButton.addTarget(
+            self,
+            action: #selector(faceIDButtonClicked),
+            for: .touchUpInside
+        )
     }
     
     //MARK: - Action
@@ -58,6 +64,10 @@ final class ViewController: UIViewController {
         controller.delegate = self
         controller.presentationContextProvider = self
         controller.performRequests()
+    }
+    
+    @objc private func faceIDButtonClicked() {
+        AuthenticationManager.shared.authenticate()
     }
 }
 

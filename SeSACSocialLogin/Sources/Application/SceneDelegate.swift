@@ -33,7 +33,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     /* ⭐️ UI는 메인 스레드에서 동작하기 */
                     DispatchQueue.main.async {
                         let window = UIWindow(windowScene: windowScene)
-                        window.rootViewController = MainViewController()
+                        window.rootViewController = ViewController()
                         self.window = window
                         window.makeKeyAndVisible()
                     }
